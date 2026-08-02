@@ -1,0 +1,46 @@
+generated: '2026-07-21'
+method: searched
+source: live HTTP probes of /.well-known/ on apis.yml hosts
+note: No well-known discovery documents are published on any Universal Electronics
+  host. developer.quicksetcloud.com 302-redirects well-known paths to its partner
+  sign-in page (not a served document). Absence recorded as valid data.
+hosts:
+- host: https://www.uei.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
+- host: https://quicksetcloud.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
+- host: https://developer.quicksetcloud.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 302
+    note: redirect to /signin?returnUrl=... (gated portal, not an OIDC document)
+  - path: /.well-known/oauth-authorization-server
+    status: 302
+    note: redirect to /signin?returnUrl=... (gated portal, not an RFC 8414 document)
+  - path: /.well-known/api-catalog
+    status: 302
+    note: redirect to /signin?returnUrl=... (gated portal, not an API catalog)
+  - path: /.well-known/ai-plugin.json
+    status: 404

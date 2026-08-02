@@ -1,0 +1,29 @@
+# Universal Electronics
+
+> Universal Electronics Inc. (UEI) is a global leader in universal control and sensing technologies for the smart home — the company behind the QuickSet software platform, UEI TIDE smart thermostats and sensors, the Nevo white-label control platform, and the One For All retail remote-control brand. QuickSet Cloud provides device discovery, interoperability, and entertainment control via a device knowledge graph covering roughly one million devices across 12,000 brands. Web APIs and native SDKs (Linux, Android, RDK, Android TV) are offered to OEM and service-provider partners through a gated developer portal; UEI publishes no public self-serve API.
+
+## Company
+
+- [Universal Electronics](https://www.uei.com): Corporate website — control and sensing technologies for the smart home
+- [QuickSet Cloud](https://quicksetcloud.com/): QuickSet platform site — device knowledge graph, interoperability, Nevo
+- [QuickSet Developer Portal](https://developer.quicksetcloud.com/): Partner developer portal (sign-in required)
+- [Blog](https://www.uei.com/blog): Company blog
+- [News](https://www.uei.com/news): Press and announcements
+- [Support](https://www.uei.com/support): Support and contact
+- [Privacy Policy](https://www.uei.com/privacy-policy): Privacy policy
+- [Investor Relations](https://investors.uei.com/): NASDAQ: UEIC investor site
+
+## Products
+
+- [QuickSet for TV](https://quicksetcloud.com/quickset-for-tv/): Smart TV device discovery and control
+- [QuickSet for Set-Top Box](https://quicksetcloud.com/quickset-for-set-top-box/): Operator set-top-box integration
+- [QuickSet for Voice Assistant](https://quicksetcloud.com/quickset-for-voice-assistant/): Voice-assistant device control
+- [QuickSet homeSense](https://quicksetcloud.com/quickset-homesense-home-occupancy-user-presence-and-more/): Occupancy and presence detection
+- [Device Knowledge Graph](https://quicksetcloud.com/device-knowledge-graph/): Structured device capability and control-protocol data
+- [Nevo](https://quicksetcloud.com/nevo/): White-label smart home and entertainment control platform
+- [Works with QuickSet](https://quicksetcloud.com/works-with-quickset/): Certification ecosystem
+- [Climate Control (UEI TIDE)](https://www.uei.com/climate-control): Smart thermostats, wireless bridges, and sensors
+
+## API Evangelist profile
+
+- [APIs.json profile](https://raw.githubusercontent.com/api-evangelist/universal-electronics/refs/heads/main/apis.yml): Machine-readable index of this profile
