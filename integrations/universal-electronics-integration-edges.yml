@@ -1,0 +1,42 @@
+edges:
+- partner_name: Connectivity Standards Alliance (Matter)
+  partner: null
+  type: contract
+  channel: standard-directory
+  relationship: standard-participant
+  direction: partner-built
+  evidence: https://on.dcl.csa-iot.org/dcl/vendorinfo/vendors/4334
+  category: Matter certified products
+  contract_reference:
+    register: CSA Distributed Compliance Ledger (Matter certification)
+    spec_file: null
+    standard: Matter
+    role: Matter certified vendor
+    vendor_id: 4334
+    registered_name: UEI
+    legal_name: Universal Electronics Inc
+    landing_page: https://www.uei.com/
+    identity_source: vendorLandingPageURL
+    matched_domain: uei.com
+    matched_by: domain
+    certified_models: 3
+    certified_products:
+    - product: Thermostat
+      device_type_id: 769
+      models: 3
+      revoked_models: 0
+      latest_certification: '2026-09-28'
+      transports:
+      - wi-fi
+      examples:
+      - Carrier Smart Thermostat
+      - Carrier Smart Thermostat Advanced
+      - Carrier Smart Thermostat with InteliSense
+      lapsed: false
+    signal_note: certified_products = one entry per device type (diversity), not per model
+    detected_by: sweep-iot.py
+    detected: '2026-10-14'
+generated: '2026-10-14'
+method: searched
+checked:
+- https://on.dcl.csa-iot.org/dcl/vendorinfo/vendors
